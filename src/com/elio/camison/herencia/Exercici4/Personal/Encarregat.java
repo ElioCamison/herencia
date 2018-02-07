@@ -19,7 +19,8 @@ public class Encarregat extends Empleat {
 
     @Override
     public double getSou() {
-        return super.getSou() * 0.10 ;
+        double sou = super.getSou() * 0.10 ;
+        return super.getSou() + sou;
     }
 
     public void setDepartament(String departament) {
